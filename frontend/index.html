@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LifePulse | Compassionate Blood Donation Community</title>
+    <meta name="description"
+          content="LifePulse connects compassionate donors with patients in need. Join our blood donation community to offer hope, save lives, and strengthen local health networks.">
+    <meta name="keywords" content="blood donation, donor community, save lives, LifePulse, volunteer, compassion">
+    <meta name="author" content="LifePulse">
+    <meta name="theme-color" content="#d62828">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/site.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header class="site-header" data-glass>
+        <nav class="nav" aria-label="Primary navigation">
+            <a class="nav__brand" href="index.html">
+                <span class="nav__logo" aria-hidden="true">♥</span>
+                LifePulse
+            </a>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+                <span class="sr-only">Toggle navigation</span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+            <ul class="nav__links" id="primary-navigation" data-nav-list>
+                <li><a class="nav__link" href="#mission">Mission</a></li>
+                <li><a class="nav__link" href="#impact">Impact</a></li>
+                <li><a class="nav__link" href="#stories">Stories</a></li>
+                <li><a class="nav__link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav__link nav__link--cta" href="donate/donate.html">Donate</a></li>
+                <li><a class="nav__link" href="contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <span class="hero__eyebrow">Compassion in every heartbeat</span>
+                    <h1>Every drop is a promise of hope.</h1>
+                    <p>
+                        LifePulse unites donors, volunteers, and hospitals to make blood accessible when it matters most.
+                        Join a compassionate network that turns empathy into action for communities worldwide.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="donate/donate.html">Become a Donor</a>
+                        <a class="btn btn--ghost" href="#mission">Discover Our Mission</a>
+                    </div>
+                    <div class="hero__assurance">
+                        <span class="hero__badge">Trusted by 4,500+ donors</span>
+                        <p>Secure, transparent, and community-powered support for patients and caregivers.</p>
+                    </div>
+                </div>
+                <aside class="hero__card" aria-label="Reasons to donate with LifePulse">
+                    <div class="hero__card-body">
+                        <h2>Why donate with us?</h2>
+                        <ul class="hero__list">
+                            <li>One donation can uplift up to three patients in need.</li>
+                            <li>We coordinate closely with verified hospitals and NGOs.</li>
+                            <li>Your information stays private and protected.</li>
+                        </ul>
+                        <a class="link-arrow" href="#how-it-works">See the impact journey</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="emergency" aria-labelledby="emergency-title">
+            <div class="container emergency__inner">
+                <div class="emergency__content">
+                    <span class="section__eyebrow section__eyebrow--sub">Emergency support</span>
+                    <h2 id="emergency-title">Emergency Blood Finder</h2>
+                    <p>
+                        Need blood urgently? Choose a blood group to instantly view compassionate donors ready to help nearby.
+                        We surface recently registered donors so you can coordinate faster with confidence.
+                    </p>
+                </div>
+                <div class="emergency__actions">
+                    <div class="emergency__buttons" role="group" aria-label="Blood group filter">
+                        <button type="button" class="chip" data-blood-group="A+">A+</button>
+                        <button type="button" class="chip" data-blood-group="A-">A-</button>
+                        <button type="button" class="chip" data-blood-group="B+">B+</button>
+                        <button type="button" class="chip" data-blood-group="B-">B-</button>
+                        <button type="button" class="chip" data-blood-group="O+">O+</button>
+                        <button type="button" class="chip" data-blood-group="O-">O-</button>
+                        <button type="button" class="chip" data-blood-group="AB+">AB+</button>
+                        <button type="button" class="chip" data-blood-group="AB-">AB-</button>
+                    </div>
+                    <p class="emergency__note">We prioritise privacy. Contact details are shared after a verified request.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="mission">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__eyebrow">Our Mission</span>
+                    <h2 class="section__title">Compassion, hope, and community service</h2>
+                    <p class="section__subtitle">
+                        LifePulse exists to bring together generous people who believe everyone deserves a second chance.
+                        Together, we bridge gaps between donors, hospitals, and families during critical times.
+                    </p>
+                </header>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <span class="feature-card__icon" aria-hidden="true">💞</span>
+                        <h3>Compassionate Connections</h3>
+                        <p>We connect donors with patients through transparent, verified partnerships built on trust.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-card__icon" aria-hidden="true">🌍</span>
+                        <h3>Community First</h3>
+                        <p>Support local blood banks and community drives that keep neighbourhoods safe and resilient.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-card__icon" aria-hidden="true">🛡️</span>
+                        <h3>Secure &amp; Ethical</h3>
+                        <p>Your generosity is protected with secure data practices and responsible outreach protocols.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--highlight" id="impact">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__eyebrow">Impact in numbers</span>
+                    <h2 class="section__title">Hope delivered with every donation</h2>
+                    <p class="section__subtitle">
+                        Our donors help emergency rooms, cancer centres, and maternal care units respond faster and save more lives.
+                    </p>
+                </header>
+                <div class="stat-grid">
+                    <article class="stat-card">
+                        <span class="stat-card__number">12K+</span>
+                        <p class="stat-card__label">Lives supported through timely transfusions</p>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-card__number">38%</span>
+                        <p class="stat-card__label">Increase in rural blood availability last year</p>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-card__number">24 hrs</span>
+                        <p class="stat-card__label">Average response time for critical requests</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="stories">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__eyebrow">Stories of hope</span>
+                    <h2 class="section__title">Moments that inspire us to do more</h2>
+                </header>
+                <div class="story-grid">
+                    <article class="story-card" aria-label="Recipient story">
+                        <p class="story-card__quote">
+                            “When my father needed an urgent transfusion, the LifePulse community rallied behind us within hours.
+                            Their kindness gave us time and renewed faith.”
+                        </p>
+                        <p class="story-card__name">Ananya • Chennai</p>
+                        <p class="story-card__role">Family Caregiver</p>
+                    </article>
+                    <article class="story-card" aria-label="Donor story">
+                        <p class="story-card__quote">
+                            “Donating through LifePulse is simple and heartfelt. I love knowing exactly how my donation supports
+                            someone’s recovery journey.”
+                        </p>
+                        <p class="story-card__name">Rahul • Bengaluru</p>
+                        <p class="story-card__role">Repeat Donor</p>
+                    </article>
+                    <article class="story-card" aria-label="Volunteer story">
+                        <p class="story-card__quote">
+                            “We host regular blood drives with LifePulse because they handle outreach, education, and follow-up
+                            with incredible care.”
+                        </p>
+                        <p class="story-card__name">Hope for All Foundation</p>
+                        <p class="story-card__role">Community Partner</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="how-it-works">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__eyebrow">How it works</span>
+                    <h2 class="section__title">A thoughtful journey from donor to recipient</h2>
+                </header>
+                <ol class="timeline">
+                    <li class="timeline__item">
+                        <span class="timeline__number">1</span>
+                        <div>
+                            <h3>Register in minutes</h3>
+                            <p>Submit your donor profile so we understand how best to match your compassion with community needs.</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item">
+                        <span class="timeline__number">2</span>
+                        <div>
+                            <h3>Get matched securely</h3>
+                            <p>We verify each request with our healthcare partners and contact you only when a match is confirmed.</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item">
+                        <span class="timeline__number">3</span>
+                        <div>
+                            <h3>Donate with confidence</h3>
+                            <p>Our support team guides you throughout the process and ensures ethical, safe donation experiences.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="cta" id="cta">
+            <div class="container cta__inner">
+                <div class="cta__content">
+                    <h2>Ready to be someone’s lifeline?</h2>
+                    <p>Hope flourishes when communities unite. Register today and help us ensure that blood is available whenever and wherever it is needed.</p>
+                </div>
+                <a class="btn btn--light" href="donate/donate.html">Donate Now</a>
+            </div>
+        </section>
+    </main>
+
+    <aside class="emergency-popup" aria-live="polite" aria-hidden="true" data-emergency-popup>
+        <div class="emergency-popup__header">
+            <h3 class="emergency-popup__title">
+                Matching Donors
+            </h3>
+            <button type="button" class="emergency-popup__close" data-popup-close aria-label="Close results">
+                ×
+            </button>
+        </div>
+        <div class="emergency-popup__body" data-popup-body>
+            <p class="emergency-popup__empty">Select a blood group to view available donors.</p>
+        </div>
+    </aside>
+
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a class="nav__brand nav__brand--footer" href="index.html">
+                    <span class="nav__logo" aria-hidden="true">♥</span>
+                    LifePulse
+                </a>
+                <p>LifePulse is a volunteer-driven blood donation network that brings compassion, hope, and lifesaving support to communities across the globe.</p>
+            </div>
+            <div>
+                <h3 class="footer__title">Stay Connected</h3>
+                <ul class="footer__list">
+                    <li><a href="mailto:gurubalan1707@gmail.com">gurubalan1707@gmail.com</a></li>
+                    <li><a href="tel:+918807509502">+91 88075 09502</a></li>
+                    <li><a href="tel:+919361547577">+91 93615 47577</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__list">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="donate/donate.html">Become a Donor</a></li>
+                    <li><a href="contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__copy">© <span data-current-year></span> LifePulse. All rights reserved.</p>
+    </footer>
+</body>
+</html>
